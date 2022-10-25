@@ -1,7 +1,6 @@
 :root {
         --main-color:#212121 ;
         --second-color:#FFFFFF;
-        --white-color:#F5F5F5;
         --blue-color:#2196F3;
         --grey-color:#757575;
         --black-color:#000000;
@@ -101,12 +100,11 @@ body {
         color: var(--main-color);
         align-items: center;
         text-align: center;
-        background:var(--beige-color);
+        background:var(--blue-color);
         font-family: inherit;
-        
 }
 .section {
-    background: var(--white-color);
+    background: var(--second-color);
 }
 .section-title {
         font-weight: 700;
@@ -194,6 +192,7 @@ body {
         line-height: 1.62;
         letter-spacing: 0.03em;
         color: var(--main-color);
+        background-color: var(--beige-color);
 }
 .button:hover,
 .button:focus {
@@ -201,6 +200,10 @@ body {
 }
 .button {
         cursor: pointer;
+}
+.main-button:hover,
+.main-button:focus {
+        background-color: var(--button-color);
 }
 .main-items-title {
         font-weight: 700;
